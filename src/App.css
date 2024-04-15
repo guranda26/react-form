@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 30px;
+
+  /* border: 0.5px solid gray; */
+  box-shadow: #00000059 0px 5px 15px;
+}
+
+input[type="text"],
+textarea {
+  background: transparent;
+  border: 1px solid rgb(210, 209, 209);
+}
+select {
+  background: transparent;
+  border: 1px solid rgb(210, 209, 209);
+}
+input[type="text"],
+select {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 5px;
+  /* border: 1px solid gray; */
+}
+
+label[for="name"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fullName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select {
+  width: 306px;
+  border: 1px solid gray;
+}
+
+label[for="name"] select {
+  border: 1px solid rgb(210, 209, 209);
+}
+
+.cont {
+  display: flex;
+  justify-content: flex-start;
+  gap: 140px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.cont2 {
+  gap: 100px;
+}
+.textarea {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 60px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 5px;
+  background: #105987;
+  background: linear-gradient(180deg, #1e85c4 30%, #0e4d75);
+  border: 1px solid #105987;
+  color: #fff;
+  font-size: 12px;
+  box-shadow: 2px 2px 4px #00000033;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.employed {
+  display: flex;
+  width: 500px;
+  align-items: center;
+}
+
+.employed div {
+  margin: 8px 0;
+  margin-left: 270px;
+}
+button[type="button"] {
+  color: #282c34;
+  background-color: #fff;
+
+  background: linear-gradient(180deg, #f2f1f1 0%, #f4f3f3 20%, #b8c0c3 100%);
+  border: 1px solid #d7d7d7;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.gray-box {
+  background-color: #d8dee0;
+  border: 1px solid #b8c0c3;
+  box-shadow: #93929259 1px 4px 15px;
+  display: flex;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+input.invalid {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.has-error input[type="text"],
+.has-error select,
+.has-error textarea {
+  border: 1px solid red;
+}
+
+/* Optionally, you can style error messages */
+.has-error .error-message {
+  color: red;
+  font-size: 12px;
+}
